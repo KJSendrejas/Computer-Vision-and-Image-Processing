@@ -1,1 +1,2 @@
-x=imread('resources\1.jpg')
+c=imread('caribou.tif');
+figure(1), imshow(c)
