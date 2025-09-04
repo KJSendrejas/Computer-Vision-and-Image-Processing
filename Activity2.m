@@ -1,4 +1,4 @@
-y=imread('cameraman.tif');
+y=imread('resources/cameraman.tif');
 figure(1),imshow(y);
 title('Original Image');
 
