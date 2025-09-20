@@ -51,4 +51,4 @@ af = fspecial('gaussian', [15 15], 5);
 f=filter2(af, c);
 figure(4), imshow(f/255);
 
-
+    
