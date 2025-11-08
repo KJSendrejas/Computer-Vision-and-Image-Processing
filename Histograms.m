@@ -82,7 +82,7 @@ if classChanged == 1
 end
 end
 
-im5 = imread('tire.tif');
+im5 = imread('forest.tif');
 
 % Unadjusted version
 unadj_im = histpwl(im5, [0 1], [0 1]);
@@ -94,7 +94,7 @@ stretch_im = histpwl(im5, [0 0.25 0.5 0.75 1], [0 0.75 0.25 0.5 1]);
 figure(24), imshow(stretch_im), title('Figure 24. Piecewise Linear Stretched Image');
 figure(25), plot(im5(:), stretch_im(:), '.'), axis tight, title('Figure 25. Plot of Piecewise Linear Stretched Image');
 
-im6 = imread('cat.tif');
+im6 = imread('forest.tif');
 figure(26), imshow(im6), title('Figure 26. Original Image');
 figure(27), imhist(im6), axis tight, title('Figure 27. Histogram of Original Image');
 
